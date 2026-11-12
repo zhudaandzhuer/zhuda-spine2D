@@ -1,0 +1,783 @@
+{
+ "canvas": [
+  760,
+  840
+ ],
+ "source": "art/character.svg",
+ "parts": [
+  {
+   "name": "shadow",
+   "file": "shadow.png",
+   "x": 254,
+   "y": 741,
+   "w": 252,
+   "h": 58
+  },
+  {
+   "name": "ankle_L",
+   "file": "ankle_L.png",
+   "x": 400,
+   "y": 732,
+   "w": 31,
+   "h": 31
+  },
+  {
+   "name": "ankle_R",
+   "file": "ankle_R.png",
+   "x": 329,
+   "y": 732,
+   "w": 31,
+   "h": 31
+  },
+  {
+   "name": "foot_L_v0",
+   "file": "foot_L_v0.png",
+   "x": 397,
+   "y": 744,
+   "w": 36,
+   "h": 35
+  },
+  {
+   "name": "foot_L_v1",
+   "file": "foot_L_v1.png",
+   "x": 384,
+   "y": 743,
+   "w": 62,
+   "h": 37,
+   "hidden": true
+  },
+  {
+   "name": "foot_L_v2",
+   "file": "foot_L_v2.png",
+   "x": 375,
+   "y": 742,
+   "w": 81,
+   "h": 39,
+   "hidden": true
+  },
+  {
+   "name": "foot_L_v3",
+   "file": "foot_L_v3.png",
+   "x": 384,
+   "y": 743,
+   "w": 62,
+   "h": 37,
+   "hidden": true
+  },
+  {
+   "name": "foot_L_v4",
+   "file": "foot_L_v4.png",
+   "x": 397,
+   "y": 744,
+   "w": 36,
+   "h": 35,
+   "hidden": true
+  },
+  {
+   "name": "foot_L_v5",
+   "file": "foot_L_v5.png",
+   "x": 384,
+   "y": 743,
+   "w": 62,
+   "h": 37,
+   "hidden": true
+  },
+  {
+   "name": "foot_L_v6",
+   "file": "foot_L_v6.png",
+   "x": 375,
+   "y": 742,
+   "w": 81,
+   "h": 39,
+   "hidden": true
+  },
+  {
+   "name": "foot_L_v7",
+   "file": "foot_L_v7.png",
+   "x": 384,
+   "y": 743,
+   "w": 62,
+   "h": 37,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v0",
+   "file": "foot_R_v0.png",
+   "x": 327,
+   "y": 744,
+   "w": 36,
+   "h": 35
+  },
+  {
+   "name": "foot_R_v1",
+   "file": "foot_R_v1.png",
+   "x": 314,
+   "y": 743,
+   "w": 62,
+   "h": 37,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v2",
+   "file": "foot_R_v2.png",
+   "x": 304,
+   "y": 742,
+   "w": 81,
+   "h": 39,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v3",
+   "file": "foot_R_v3.png",
+   "x": 314,
+   "y": 743,
+   "w": 62,
+   "h": 37,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v4",
+   "file": "foot_R_v4.png",
+   "x": 327,
+   "y": 744,
+   "w": 36,
+   "h": 35,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v5",
+   "file": "foot_R_v5.png",
+   "x": 314,
+   "y": 743,
+   "w": 62,
+   "h": 37,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v6",
+   "file": "foot_R_v6.png",
+   "x": 304,
+   "y": 742,
+   "w": 81,
+   "h": 39,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v7",
+   "file": "foot_R_v7.png",
+   "x": 314,
+   "y": 743,
+   "w": 62,
+   "h": 37,
+   "hidden": true
+  },
+  {
+   "name": "shin_L",
+   "file": "shin_L.png",
+   "x": 391,
+   "y": 609,
+   "w": 46,
+   "h": 150
+  },
+  {
+   "name": "shin_R",
+   "file": "shin_R.png",
+   "x": 323,
+   "y": 609,
+   "w": 46,
+   "h": 150
+  },
+  {
+   "name": "hair_back_1",
+   "file": "hair_back_1.png",
+   "x": 340,
+   "y": 205,
+   "w": 80,
+   "h": 68
+  },
+  {
+   "name": "hair_back_2",
+   "file": "hair_back_2.png",
+   "x": 344,
+   "y": 254,
+   "w": 72,
+   "h": 66
+  },
+  {
+   "name": "hair_back_3",
+   "file": "hair_back_3.png",
+   "x": 353,
+   "y": 304,
+   "w": 54,
+   "h": 62
+  },
+  {
+   "name": "thigh_L",
+   "file": "thigh_L.png",
+   "x": 383,
+   "y": 469,
+   "w": 60,
+   "h": 154
+  },
+  {
+   "name": "thigh_R",
+   "file": "thigh_R.png",
+   "x": 317,
+   "y": 470,
+   "w": 60,
+   "h": 154
+  },
+  {
+   "name": "pelvis_v0",
+   "file": "pelvis_v0.png",
+   "x": 300,
+   "y": 397,
+   "w": 160,
+   "h": 128
+  },
+  {
+   "name": "pelvis_v1",
+   "file": "pelvis_v1.png",
+   "x": 311,
+   "y": 398,
+   "w": 138,
+   "h": 126,
+   "hidden": true
+  },
+  {
+   "name": "pelvis_v2",
+   "file": "pelvis_v2.png",
+   "x": 325,
+   "y": 400,
+   "w": 110,
+   "h": 122,
+   "hidden": true
+  },
+  {
+   "name": "pelvis_v3",
+   "file": "pelvis_v3.png",
+   "x": 311,
+   "y": 398,
+   "w": 138,
+   "h": 126,
+   "hidden": true
+  },
+  {
+   "name": "pelvis_v4",
+   "file": "pelvis_v4.png",
+   "x": 300,
+   "y": 397,
+   "w": 160,
+   "h": 128,
+   "hidden": true
+  },
+  {
+   "name": "pelvis_v5",
+   "file": "pelvis_v5.png",
+   "x": 311,
+   "y": 398,
+   "w": 138,
+   "h": 126,
+   "hidden": true
+  },
+  {
+   "name": "pelvis_v6",
+   "file": "pelvis_v6.png",
+   "x": 325,
+   "y": 400,
+   "w": 110,
+   "h": 122,
+   "hidden": true
+  },
+  {
+   "name": "pelvis_v7",
+   "file": "pelvis_v7.png",
+   "x": 311,
+   "y": 398,
+   "w": 138,
+   "h": 126,
+   "hidden": true
+  },
+  {
+   "name": "hip_L",
+   "file": "hip_L.png",
+   "x": 382,
+   "y": 446,
+   "w": 63,
+   "h": 63
+  },
+  {
+   "name": "hip_R",
+   "file": "hip_R.png",
+   "x": 315,
+   "y": 446,
+   "w": 63,
+   "h": 63
+  },
+  {
+   "name": "skirt_1",
+   "file": "skirt_1.png",
+   "x": 270,
+   "y": 417,
+   "w": 220,
+   "h": 164
+  },
+  {
+   "name": "knee_L",
+   "file": "knee_L.png",
+   "x": 392,
+   "y": 593,
+   "w": 45,
+   "h": 45
+  },
+  {
+   "name": "knee_R",
+   "file": "knee_R.png",
+   "x": 323,
+   "y": 593,
+   "w": 45,
+   "h": 45
+  },
+  {
+   "name": "hand_L",
+   "file": "hand_L.png",
+   "x": 471,
+   "y": 446,
+   "w": 31,
+   "h": 52
+  },
+  {
+   "name": "hand_R",
+   "file": "hand_R.png",
+   "x": 258,
+   "y": 446,
+   "w": 31,
+   "h": 52
+  },
+  {
+   "name": "waist",
+   "file": "waist.png",
+   "x": 326,
+   "y": 352,
+   "w": 108,
+   "h": 108
+  },
+  {
+   "name": "forearm_L",
+   "file": "forearm_L.png",
+   "x": 444,
+   "y": 367,
+   "w": 51,
+   "h": 95
+  },
+  {
+   "name": "forearm_R",
+   "file": "forearm_R.png",
+   "x": 265,
+   "y": 367,
+   "w": 51,
+   "h": 95
+  },
+  {
+   "name": "wrist_L",
+   "file": "wrist_L.png",
+   "x": 468,
+   "y": 441,
+   "w": 27,
+   "h": 27
+  },
+  {
+   "name": "wrist_R",
+   "file": "wrist_R.png",
+   "x": 265,
+   "y": 441,
+   "w": 27,
+   "h": 27
+  },
+  {
+   "name": "elbow_L",
+   "file": "elbow_L.png",
+   "x": 444,
+   "y": 358,
+   "w": 32,
+   "h": 33
+  },
+  {
+   "name": "elbow_R",
+   "file": "elbow_R.png",
+   "x": 284,
+   "y": 358,
+   "w": 32,
+   "h": 33
+  },
+  {
+   "name": "upperarm_L",
+   "file": "upperarm_L.png",
+   "x": 417,
+   "y": 280,
+   "w": 60,
+   "h": 104
+  },
+  {
+   "name": "upperarm_R",
+   "file": "upperarm_R.png",
+   "x": 283,
+   "y": 280,
+   "w": 59,
+   "h": 104
+  },
+  {
+   "name": "chest_v0",
+   "file": "chest_v0.png",
+   "x": 303,
+   "y": 245,
+   "w": 154,
+   "h": 173
+  },
+  {
+   "name": "chest_v1",
+   "file": "chest_v1.png",
+   "x": 310,
+   "y": 245,
+   "w": 140,
+   "h": 174,
+   "hidden": true
+  },
+  {
+   "name": "chest_v2",
+   "file": "chest_v2.png",
+   "x": 319,
+   "y": 244,
+   "w": 123,
+   "h": 175,
+   "hidden": true
+  },
+  {
+   "name": "chest_v3",
+   "file": "chest_v3.png",
+   "x": 310,
+   "y": 245,
+   "w": 140,
+   "h": 174,
+   "hidden": true
+  },
+  {
+   "name": "chest_v4",
+   "file": "chest_v4.png",
+   "x": 303,
+   "y": 245,
+   "w": 154,
+   "h": 173,
+   "hidden": true
+  },
+  {
+   "name": "chest_v5",
+   "file": "chest_v5.png",
+   "x": 310,
+   "y": 245,
+   "w": 140,
+   "h": 174,
+   "hidden": true
+  },
+  {
+   "name": "chest_v6",
+   "file": "chest_v6.png",
+   "x": 318,
+   "y": 244,
+   "w": 123,
+   "h": 175,
+   "hidden": true
+  },
+  {
+   "name": "chest_v7",
+   "file": "chest_v7.png",
+   "x": 310,
+   "y": 245,
+   "w": 140,
+   "h": 174,
+   "hidden": true
+  },
+  {
+   "name": "neck",
+   "file": "neck.png",
+   "x": 363,
+   "y": 239,
+   "w": 34,
+   "h": 46
+  },
+  {
+   "name": "shoulder_L",
+   "file": "shoulder_L.png",
+   "x": 415,
+   "y": 268,
+   "w": 43,
+   "h": 42
+  },
+  {
+   "name": "shoulder_R",
+   "file": "shoulder_R.png",
+   "x": 302,
+   "y": 268,
+   "w": 43,
+   "h": 42
+  },
+  {
+   "name": "hair_cap",
+   "file": "hair_cap.png",
+   "x": 317,
+   "y": 137,
+   "w": 126,
+   "h": 141
+  },
+  {
+   "name": "ear_L",
+   "file": "ear_L.png",
+   "x": 413,
+   "y": 204,
+   "w": 17,
+   "h": 25
+  },
+  {
+   "name": "ear_R",
+   "file": "ear_R.png",
+   "x": 330,
+   "y": 204,
+   "w": 17,
+   "h": 25
+  },
+  {
+   "name": "head",
+   "file": "head.png",
+   "x": 322,
+   "y": 148,
+   "w": 116,
+   "h": 132
+  },
+  {
+   "name": "lock_L_1",
+   "file": "lock_L_1.png",
+   "x": 404,
+   "y": 225,
+   "w": 29,
+   "h": 45
+  },
+  {
+   "name": "lock_R_1",
+   "file": "lock_R_1.png",
+   "x": 327,
+   "y": 225,
+   "w": 29,
+   "h": 46
+  },
+  {
+   "name": "lock_L_2",
+   "file": "lock_L_2.png",
+   "x": 404,
+   "y": 261,
+   "w": 28,
+   "h": 46
+  },
+  {
+   "name": "lock_R_2",
+   "file": "lock_R_2.png",
+   "x": 328,
+   "y": 261,
+   "w": 28,
+   "h": 46
+  },
+  {
+   "name": "lock_L_3",
+   "file": "lock_L_3.png",
+   "x": 406,
+   "y": 297,
+   "w": 25,
+   "h": 46
+  },
+  {
+   "name": "lock_R_3",
+   "file": "lock_R_3.png",
+   "x": 329,
+   "y": 297,
+   "w": 25,
+   "h": 46
+  },
+  {
+   "name": "sidebang_L",
+   "file": "sidebang_L.png",
+   "x": 395,
+   "y": 172,
+   "w": 33,
+   "h": 52
+  },
+  {
+   "name": "sidebang_R",
+   "file": "sidebang_R.png",
+   "x": 332,
+   "y": 172,
+   "w": 33,
+   "h": 52
+  },
+  {
+   "name": "mouth_closed",
+   "file": "mouth_closed.png",
+   "x": 369,
+   "y": 246,
+   "w": 22,
+   "h": 9
+  },
+  {
+   "name": "mouth_smile",
+   "file": "mouth_smile.png",
+   "x": 367,
+   "y": 244,
+   "w": 26,
+   "h": 12,
+   "hidden": true
+  },
+  {
+   "name": "mouth_open1",
+   "file": "mouth_open1.png",
+   "x": 371,
+   "y": 245,
+   "w": 18,
+   "h": 10,
+   "hidden": true
+  },
+  {
+   "name": "mouth_open2",
+   "file": "mouth_open2.png",
+   "x": 370,
+   "y": 244,
+   "w": 20,
+   "h": 12,
+   "hidden": true
+  },
+  {
+   "name": "mouth_open3",
+   "file": "mouth_open3.png",
+   "x": 370,
+   "y": 243,
+   "w": 20,
+   "h": 15,
+   "hidden": true
+  },
+  {
+   "name": "cheek_L",
+   "file": "cheek_L.png",
+   "x": 392,
+   "y": 225,
+   "w": 20,
+   "h": 15,
+   "hidden": true
+  },
+  {
+   "name": "cheek_R",
+   "file": "cheek_R.png",
+   "x": 348,
+   "y": 225,
+   "w": 20,
+   "h": 15,
+   "hidden": true
+  },
+  {
+   "name": "bangs",
+   "file": "bangs.png",
+   "x": 332,
+   "y": 162,
+   "w": 96,
+   "h": 47
+  },
+  {
+   "name": "eye_L_open",
+   "file": "eye_L_open.png",
+   "x": 381,
+   "y": 208,
+   "w": 27,
+   "h": 25
+  },
+  {
+   "name": "eye_L_half",
+   "file": "eye_L_half.png",
+   "x": 380,
+   "y": 210,
+   "w": 28,
+   "h": 17,
+   "hidden": true
+  },
+  {
+   "name": "eye_L_closed",
+   "file": "eye_L_closed.png",
+   "x": 381,
+   "y": 211,
+   "w": 27,
+   "h": 16,
+   "hidden": true
+  },
+  {
+   "name": "eye_R_open",
+   "file": "eye_R_open.png",
+   "x": 352,
+   "y": 208,
+   "w": 27,
+   "h": 25
+  },
+  {
+   "name": "eye_R_half",
+   "file": "eye_R_half.png",
+   "x": 352,
+   "y": 210,
+   "w": 28,
+   "h": 17,
+   "hidden": true
+  },
+  {
+   "name": "eye_R_closed",
+   "file": "eye_R_closed.png",
+   "x": 352,
+   "y": 211,
+   "w": 28,
+   "h": 16,
+   "hidden": true
+  },
+  {
+   "name": "brow_L",
+   "file": "brow_L.png",
+   "x": 382,
+   "y": 196,
+   "w": 23,
+   "h": 12
+  },
+  {
+   "name": "brow_R",
+   "file": "brow_R.png",
+   "x": 355,
+   "y": 196,
+   "w": 23,
+   "h": 12
+  },
+  {
+   "name": "nose",
+   "file": "nose.png",
+   "x": 373,
+   "y": 227,
+   "w": 14,
+   "h": 15
+  },
+  {
+   "name": "iris_L_on",
+   "file": "iris_L_on.png",
+   "x": 387,
+   "y": 212,
+   "w": 16,
+   "h": 17
+  },
+  {
+   "name": "iris_R_on",
+   "file": "iris_R_on.png",
+   "x": 357,
+   "y": 212,
+   "w": 16,
+   "h": 17
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "spine2d-master",
+  "version": "2.7.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent toolkit for building and verifying Spine 4.2 characters. node_modules/ is vendored (pinned, offline); `npm ci` is only needed to restore it.",
+  "dependencies": {
+    "@esotericsoftware/spine-core": "4.2.119",
+    "@esotericsoftware/spine-webgl": "4.2.119",
+    "pngjs": "7.0.0"
+  },
+  "optionalDependencies": {
+    "playwright-core": "^1.55.0"
+  }
+}

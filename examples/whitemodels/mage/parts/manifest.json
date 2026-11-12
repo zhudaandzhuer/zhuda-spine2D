@@ -1,0 +1,644 @@
+{
+ "canvas": [
+  760,
+  840
+ ],
+ "source": "art/character.svg",
+ "parts": [
+  {
+   "name": "shadow",
+   "file": "shadow.png",
+   "x": 265,
+   "y": 743,
+   "w": 230,
+   "h": 54
+  },
+  {
+   "name": "ankle_L",
+   "file": "ankle_L.png",
+   "x": 397,
+   "y": 730,
+   "w": 31,
+   "h": 31
+  },
+  {
+   "name": "ankle_R",
+   "file": "ankle_R.png",
+   "x": 332,
+   "y": 730,
+   "w": 31,
+   "h": 31
+  },
+  {
+   "name": "foot_L_v0",
+   "file": "foot_L_v0.png",
+   "x": 393,
+   "y": 742,
+   "w": 38,
+   "h": 38
+  },
+  {
+   "name": "foot_L_v1",
+   "file": "foot_L_v1.png",
+   "x": 379,
+   "y": 741,
+   "w": 67,
+   "h": 40,
+   "hidden": true
+  },
+  {
+   "name": "foot_L_v2",
+   "file": "foot_L_v2.png",
+   "x": 369,
+   "y": 739,
+   "w": 87,
+   "h": 43,
+   "hidden": true
+  },
+  {
+   "name": "foot_L_v3",
+   "file": "foot_L_v3.png",
+   "x": 379,
+   "y": 741,
+   "w": 67,
+   "h": 40,
+   "hidden": true
+  },
+  {
+   "name": "foot_L_v4",
+   "file": "foot_L_v4.png",
+   "x": 393,
+   "y": 742,
+   "w": 38,
+   "h": 38,
+   "hidden": true
+  },
+  {
+   "name": "foot_L_v5",
+   "file": "foot_L_v5.png",
+   "x": 379,
+   "y": 741,
+   "w": 67,
+   "h": 40,
+   "hidden": true
+  },
+  {
+   "name": "foot_L_v6",
+   "file": "foot_L_v6.png",
+   "x": 369,
+   "y": 739,
+   "w": 87,
+   "h": 43,
+   "hidden": true
+  },
+  {
+   "name": "foot_L_v7",
+   "file": "foot_L_v7.png",
+   "x": 379,
+   "y": 741,
+   "w": 67,
+   "h": 40,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v0",
+   "file": "foot_R_v0.png",
+   "x": 329,
+   "y": 742,
+   "w": 38,
+   "h": 38
+  },
+  {
+   "name": "foot_R_v1",
+   "file": "foot_R_v1.png",
+   "x": 314,
+   "y": 741,
+   "w": 67,
+   "h": 40,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v2",
+   "file": "foot_R_v2.png",
+   "x": 304,
+   "y": 739,
+   "w": 87,
+   "h": 43,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v3",
+   "file": "foot_R_v3.png",
+   "x": 314,
+   "y": 741,
+   "w": 67,
+   "h": 40,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v4",
+   "file": "foot_R_v4.png",
+   "x": 329,
+   "y": 742,
+   "w": 38,
+   "h": 38,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v5",
+   "file": "foot_R_v5.png",
+   "x": 314,
+   "y": 741,
+   "w": 67,
+   "h": 40,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v6",
+   "file": "foot_R_v6.png",
+   "x": 304,
+   "y": 739,
+   "w": 87,
+   "h": 43,
+   "hidden": true
+  },
+  {
+   "name": "foot_R_v7",
+   "file": "foot_R_v7.png",
+   "x": 314,
+   "y": 741,
+   "w": 67,
+   "h": 40,
+   "hidden": true
+  },
+  {
+   "name": "shin_L",
+   "file": "shin_L.png",
+   "x": 388,
+   "y": 610,
+   "w": 47,
+   "h": 147
+  },
+  {
+   "name": "shin_R",
+   "file": "shin_R.png",
+   "x": 325,
+   "y": 610,
+   "w": 47,
+   "h": 147
+  },
+  {
+   "name": "thigh_L",
+   "file": "thigh_L.png",
+   "x": 380,
+   "y": 473,
+   "w": 61,
+   "h": 152
+  },
+  {
+   "name": "thigh_R",
+   "file": "thigh_R.png",
+   "x": 319,
+   "y": 473,
+   "w": 61,
+   "h": 151
+  },
+  {
+   "name": "pelvis_v0",
+   "file": "pelvis_v0.png",
+   "x": 305,
+   "y": 400,
+   "w": 149,
+   "h": 127
+  },
+  {
+   "name": "pelvis_v1",
+   "file": "pelvis_v1.png",
+   "x": 315,
+   "y": 402,
+   "w": 130,
+   "h": 123,
+   "hidden": true
+  },
+  {
+   "name": "pelvis_v2",
+   "file": "pelvis_v2.png",
+   "x": 324,
+   "y": 403,
+   "w": 111,
+   "h": 121,
+   "hidden": true
+  },
+  {
+   "name": "pelvis_v3",
+   "file": "pelvis_v3.png",
+   "x": 315,
+   "y": 402,
+   "w": 130,
+   "h": 123,
+   "hidden": true
+  },
+  {
+   "name": "pelvis_v4",
+   "file": "pelvis_v4.png",
+   "x": 305,
+   "y": 400,
+   "w": 149,
+   "h": 127,
+   "hidden": true
+  },
+  {
+   "name": "pelvis_v5",
+   "file": "pelvis_v5.png",
+   "x": 315,
+   "y": 402,
+   "w": 130,
+   "h": 123,
+   "hidden": true
+  },
+  {
+   "name": "pelvis_v6",
+   "file": "pelvis_v6.png",
+   "x": 324,
+   "y": 403,
+   "w": 111,
+   "h": 121,
+   "hidden": true
+  },
+  {
+   "name": "pelvis_v7",
+   "file": "pelvis_v7.png",
+   "x": 315,
+   "y": 402,
+   "w": 130,
+   "h": 123,
+   "hidden": true
+  },
+  {
+   "name": "knee_L",
+   "file": "knee_L.png",
+   "x": 388,
+   "y": 593,
+   "w": 46,
+   "h": 46
+  },
+  {
+   "name": "knee_R",
+   "file": "knee_R.png",
+   "x": 326,
+   "y": 593,
+   "w": 46,
+   "h": 46
+  },
+  {
+   "name": "hip_L",
+   "file": "hip_L.png",
+   "x": 379,
+   "y": 449,
+   "w": 63,
+   "h": 64
+  },
+  {
+   "name": "hip_R",
+   "file": "hip_R.png",
+   "x": 318,
+   "y": 449,
+   "w": 63,
+   "h": 64
+  },
+  {
+   "name": "robe_1",
+   "file": "robe_1.png",
+   "x": 264,
+   "y": 422,
+   "w": 232,
+   "h": 347
+  },
+  {
+   "name": "hand_L",
+   "file": "hand_L.png",
+   "x": 476,
+   "y": 446,
+   "w": 31,
+   "h": 52
+  },
+  {
+   "name": "waist",
+   "file": "waist.png",
+   "x": 319,
+   "y": 346,
+   "w": 122,
+   "h": 117
+  },
+  {
+   "name": "forearm_L",
+   "file": "forearm_L.png",
+   "x": 447,
+   "y": 362,
+   "w": 54,
+   "h": 100
+  },
+  {
+   "name": "wrist_L",
+   "file": "wrist_L.png",
+   "x": 473,
+   "y": 441,
+   "w": 27,
+   "h": 27
+  },
+  {
+   "name": "sleeve_L",
+   "file": "sleeve_L.png",
+   "x": 443,
+   "y": 361,
+   "w": 81,
+   "h": 118
+  },
+  {
+   "name": "elbow_L",
+   "file": "elbow_L.png",
+   "x": 447,
+   "y": 353,
+   "w": 34,
+   "h": 33
+  },
+  {
+   "name": "upperarm_L",
+   "file": "upperarm_L.png",
+   "x": 419,
+   "y": 268,
+   "w": 63,
+   "h": 112
+  },
+  {
+   "name": "chest_v0",
+   "file": "chest_v0.png",
+   "x": 299,
+   "y": 231,
+   "w": 162,
+   "h": 186
+  },
+  {
+   "name": "chest_v1",
+   "file": "chest_v1.png",
+   "x": 308,
+   "y": 231,
+   "w": 144,
+   "h": 186,
+   "hidden": true
+  },
+  {
+   "name": "chest_v2",
+   "file": "chest_v2.png",
+   "x": 318,
+   "y": 231,
+   "w": 124,
+   "h": 186,
+   "hidden": true
+  },
+  {
+   "name": "chest_v3",
+   "file": "chest_v3.png",
+   "x": 308,
+   "y": 231,
+   "w": 144,
+   "h": 186,
+   "hidden": true
+  },
+  {
+   "name": "chest_v4",
+   "file": "chest_v4.png",
+   "x": 299,
+   "y": 231,
+   "w": 162,
+   "h": 186,
+   "hidden": true
+  },
+  {
+   "name": "chest_v5",
+   "file": "chest_v5.png",
+   "x": 308,
+   "y": 231,
+   "w": 144,
+   "h": 186,
+   "hidden": true
+  },
+  {
+   "name": "chest_v6",
+   "file": "chest_v6.png",
+   "x": 318,
+   "y": 231,
+   "w": 124,
+   "h": 186,
+   "hidden": true
+  },
+  {
+   "name": "chest_v7",
+   "file": "chest_v7.png",
+   "x": 308,
+   "y": 231,
+   "w": 144,
+   "h": 186,
+   "hidden": true
+  },
+  {
+   "name": "neck",
+   "file": "neck.png",
+   "x": 362,
+   "y": 227,
+   "w": 36,
+   "h": 46
+  },
+  {
+   "name": "shoulder_L",
+   "file": "shoulder_L.png",
+   "x": 417,
+   "y": 256,
+   "w": 44,
+   "h": 44
+  },
+  {
+   "name": "shoulder_R",
+   "file": "shoulder_R.png",
+   "x": 298,
+   "y": 256,
+   "w": 45,
+   "h": 44
+  },
+  {
+   "name": "upperarm_R",
+   "file": "upperarm_R.png",
+   "x": 284,
+   "y": 269,
+   "w": 58,
+   "h": 112
+  },
+  {
+   "name": "head_v0",
+   "file": "head_v0.png",
+   "x": 322,
+   "y": 142,
+   "w": 115,
+   "h": 129
+  },
+  {
+   "name": "head_v1",
+   "file": "head_v1.png",
+   "x": 320,
+   "y": 142,
+   "w": 120,
+   "h": 129,
+   "hidden": true
+  },
+  {
+   "name": "head_v2",
+   "file": "head_v2.png",
+   "x": 318,
+   "y": 143,
+   "w": 124,
+   "h": 128,
+   "hidden": true
+  },
+  {
+   "name": "head_v3",
+   "file": "head_v3.png",
+   "x": 320,
+   "y": 142,
+   "w": 120,
+   "h": 129,
+   "hidden": true
+  },
+  {
+   "name": "head_v4",
+   "file": "head_v4.png",
+   "x": 322,
+   "y": 142,
+   "w": 115,
+   "h": 129,
+   "hidden": true
+  },
+  {
+   "name": "head_v5",
+   "file": "head_v5.png",
+   "x": 320,
+   "y": 142,
+   "w": 120,
+   "h": 129,
+   "hidden": true
+  },
+  {
+   "name": "head_v6",
+   "file": "head_v6.png",
+   "x": 318,
+   "y": 143,
+   "w": 123,
+   "h": 128,
+   "hidden": true
+  },
+  {
+   "name": "head_v7",
+   "file": "head_v7.png",
+   "x": 320,
+   "y": 142,
+   "w": 120,
+   "h": 129,
+   "hidden": true
+  },
+  {
+   "name": "hat_brim",
+   "file": "hat_brim.png",
+   "x": 307,
+   "y": 145,
+   "w": 146,
+   "h": 73
+  },
+  {
+   "name": "hat_1",
+   "file": "hat_1.png",
+   "x": 339,
+   "y": 131,
+   "w": 82,
+   "h": 60
+  },
+  {
+   "name": "hat_2",
+   "file": "hat_2.png",
+   "x": 359,
+   "y": 95,
+   "w": 42,
+   "h": 51
+  },
+  {
+   "name": "elbow_R",
+   "file": "elbow_R.png",
+   "x": 285,
+   "y": 354,
+   "w": 34,
+   "h": 33
+  },
+  {
+   "name": "hat_j2",
+   "file": "hat_j2.png",
+   "x": 371,
+   "y": 92,
+   "w": 17,
+   "h": 17
+  },
+  {
+   "name": "hat_j1",
+   "file": "hat_j1.png",
+   "x": 359,
+   "y": 120,
+   "w": 42,
+   "h": 41
+  },
+  {
+   "name": "forearm_R",
+   "file": "forearm_R.png",
+   "x": 287,
+   "y": 291,
+   "w": 81,
+   "h": 92
+  },
+  {
+   "name": "wrist_R",
+   "file": "wrist_R.png",
+   "x": 293,
+   "y": 351,
+   "w": 27,
+   "h": 27
+  },
+  {
+   "name": "sleeve_R",
+   "file": "sleeve_R.png",
+   "x": 282,
+   "y": 271,
+   "w": 108,
+   "h": 117
+  },
+  {
+   "name": "staff_cap",
+   "file": "staff_cap.png",
+   "x": 340,
+   "y": 91,
+   "w": 39,
+   "h": 39
+  },
+  {
+   "name": "hand_R",
+   "file": "hand_R.png",
+   "x": 294,
+   "y": 346,
+   "w": 27,
+   "h": 35
+  },
+  {
+   "name": "staff",
+   "file": "staff.png",
+   "x": 225,
+   "y": 103,
+   "w": 145,
+   "h": 615
+  }
+ ]
+}

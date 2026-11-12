@@ -1,0 +1,30 @@
+{
+  "_help": "Starter for a front-view half-body character. Order = draw order, back to front. Edit names/files to match what you generated; replace every polygon with coordinates read from `spk grid gen/keyart.png`. Full reference: docs/15-imagegen-layers.md",
+  "keyart": "gen/keyart.png",
+  "background": "auto",
+  "resize": false,
+  "defaults": {"align": true, "despeckle": 2},
+  "min_overlap": 6,
+  "parts": [
+    {"name": "hair_back", "source": "gen/hair_back.png"},
+    {"name": "neck", "source": "gen/neck.png"},
+    {"name": "torso", "source": "gen/torso.png"},
+    {"name": "arm_L", "source": "gen/arm_L.png"},
+    {"name": "arm_R", "source": "gen/arm_R.png"},
+    {"name": "hair_long_L", "source": "gen/hair_long_L.png"},
+    {"name": "hair_long_R", "source": "gen/hair_long_R.png"},
+    {"name": "eye_white_L", "source": "keyart", "polygon": [[400, 300], [480, 300], [480, 345], [400, 345]], "feather": 0},
+    {"name": "eye_white_R", "source": "keyart", "polygon": [[540, 300], [620, 300], [620, 345], [540, 345]], "feather": 0},
+    {"name": "face", "source": "gen/face.png",
+     "holes": [[[410, 318], [440, 304], [470, 310], [476, 324], [450, 334], [422, 328]], [[548, 324], [554, 310], [584, 304], [614, 318], [602, 328], [574, 334]]]},
+    {"name": "eyelid_L", "source": "@face", "polygon": [[404, 276], [482, 276], [482, 326], [404, 326]], "fade": {"top": 9}},
+    {"name": "eyelid_R", "source": "@face", "polygon": [[542, 276], [620, 276], [620, 326], [542, 326]], "fade": {"top": 9}},
+    {"name": "nose", "source": "keyart", "polygon": [[488, 350], [514, 350], [514, 392], [488, 392]], "feather": 1.5},
+    {"name": "mouth_neutral", "source": "keyart", "polygon": [[474, 400], [528, 400], [528, 426], [474, 426]], "feather": 1.5},
+    {"name": "mouth_smile", "source": "gen/mouth_smile.png", "align": false, "polygon": [[474, 400], [528, 400], [528, 426], [474, 426]], "feather": 1.5, "hidden": true},
+    {"name": "hair_top", "source": "gen/hair_top.png"},
+    {"name": "bang_C", "source": "gen/bang_C.png"},
+    {"name": "brow_L", "source": "keyart", "polygon": [[416, 270], [478, 270], [478, 290], [416, 290]], "feather": 1},
+    {"name": "brow_R", "source": "keyart", "polygon": [[522, 270], [584, 270], [584, 290], [522, 290]], "feather": 1}
+  ]
+}

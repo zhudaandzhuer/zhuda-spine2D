@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "exampleOnly": true,
+  "note": "手部任務的規劃範例，不是 builder 輸入 schema。按角色、鏡頭與使用者要求替換；名稱、時序及掌部量測不作通用常數。",
+  "camera": {"view": "authored-front", "targetCharacterHeightPx": null},
+  "sideMap": [
+    {"characterSide": "right", "screenSideAtSetup": "left", "role": "raise-and-wave", "rigPrefix": "guard"},
+    {"characterSide": "left", "screenSideAtSetup": "right", "role": "relax-or-press", "rigPrefix": "press"}
+  ],
+  "registration": {
+    "landmarks": ["wrist-center", "metacarpophalangeal-line", "matched-palm-width-sections", "thumb-root"],
+    "palmLengthWorld": null,
+    "palmWidthWorld": null,
+    "transformsRecordedAt": null,
+    "silhouetteMismatch": "unmeasured"
+  },
+  "poses": [
+    {"id": "rest", "guardSurface": "dorsal", "pressSurface": "dorsal", "intent": "雙手自然垂下、掌心向內"},
+    {"id": "forward", "guardSurface": "dorsal-to-side", "pressSurface": "dorsal", "intent": "前臂移向身前並遮住後收上臂"},
+    {"id": "raised", "guardSurface": "palm", "pressSurface": "dorsal", "intent": "前伸後上舉，掌心朝外"},
+    {"id": "return", "guardSurface": "palm-to-side-to-dorsal", "pressSurface": "dorsal", "intent": "連續恢復低手姿態"}
+  ],
+  "fingers": {"required": ["thumb", "index", "middle", "ring", "little"], "mustHaveRealWeights": true, "jointCountPerDigit": "choose-for-required-editability"},
+  "transitions": {
+    "strategy": "decide-after-runtime-test",
+    "arbitraryNativeMixRequired": false,
+    "controllerFile": null,
+    "routes": ["rise-interrupted-by-return", "return-interrupted-by-rise", "repeat-current-state", "pause-seek-resume"],
+    "preserveAmbientTrack": true
+  },
+  "verification": {"assetHashes": {}, "controllerSha256": null, "sampledPhases": [], "observedRouteDurationSeconds": null, "manualUniqueFrames": [], "limitations": []}
+}

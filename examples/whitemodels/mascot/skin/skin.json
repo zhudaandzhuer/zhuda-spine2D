@@ -1,0 +1,1275 @@
+{
+ "body": "mascot",
+ "body_zh": "吉祥物（耳朵、口鼻、尾巴、側背包）",
+ "height_px": 381,
+ "asymmetric": true,
+ "views": [
+  "F",
+  "FR",
+  "R",
+  "BR",
+  "B",
+  "BL",
+  "L",
+  "FL"
+ ],
+ "view_meaning": {
+  "F": "正面",
+  "FR": "右前 3/4",
+  "R": "右側",
+  "BR": "右後 3/4",
+  "B": "背面",
+  "BL": "左後 3/4",
+  "L": "左側",
+  "FL": "左前 3/4"
+ },
+ "attachments": [
+  {
+   "attachment": "shadow",
+   "slot": "shadow",
+   "kind": "shadow",
+   "zh": "地面陰影",
+   "file": "shadow.png",
+   "size": [
+    210,
+    48
+   ],
+   "pivot": [
+    105.0,
+    24.0
+   ]
+  },
+  {
+   "attachment": "tail_j2",
+   "slot": "tail_j2",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "tail_j2.png",
+   "size": [
+    20,
+    20
+   ],
+   "pivot": [
+    10.0,
+    10.26
+   ]
+  },
+  {
+   "attachment": "tail_2",
+   "slot": "tail_2",
+   "kind": "tube",
+   "zh": "管狀肢段：沿骨頭方向畫，兩端會被關節球蓋住",
+   "note": "one image for all angles; keep it roughly cylindrical",
+   "file": "tail_2.png",
+   "size": [
+    24,
+    27
+   ],
+   "pivot": [
+    12.0,
+    21.92
+   ]
+  },
+  {
+   "attachment": "tail_j1",
+   "slot": "tail_j1",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "tail_j1.png",
+   "size": [
+    24,
+    24
+   ],
+   "pivot": [
+    12.0,
+    11.92
+   ]
+  },
+  {
+   "attachment": "tail_1",
+   "slot": "tail_1",
+   "kind": "tube",
+   "zh": "管狀肢段：沿骨頭方向畫，兩端會被關節球蓋住",
+   "note": "one image for all angles; keep it roughly cylindrical",
+   "file": "tail_1.png",
+   "size": [
+    26,
+    27
+   ],
+   "pivot": [
+    13.0,
+    21.61
+   ]
+  },
+  {
+   "attachment": "shin_L",
+   "slot": "shin_L",
+   "kind": "tube",
+   "zh": "管狀肢段：沿骨頭方向畫，兩端會被關節球蓋住",
+   "note": "one image for all angles; keep it roughly cylindrical",
+   "file": "shin_L.png",
+   "size": [
+    61,
+    63
+   ],
+   "pivot": [
+    30.36,
+    8.05
+   ]
+  },
+  {
+   "attachment": "shin_R",
+   "slot": "shin_R",
+   "kind": "tube",
+   "zh": "管狀肢段：沿骨頭方向畫，兩端會被關節球蓋住",
+   "note": "one image for all angles; keep it roughly cylindrical",
+   "file": "shin_R.png",
+   "size": [
+    61,
+    63
+   ],
+   "pivot": [
+    30.64,
+    8.05
+   ]
+  },
+  {
+   "attachment": "ankle_L",
+   "slot": "ankle_L",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "ankle_L.png",
+   "size": [
+    38,
+    38
+   ],
+   "pivot": [
+    19.17,
+    18.96
+   ]
+  },
+  {
+   "attachment": "ankle_R",
+   "slot": "ankle_R",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "ankle_R.png",
+   "size": [
+    38,
+    38
+   ],
+   "pivot": [
+    18.83,
+    18.96
+   ]
+  },
+  {
+   "attachment": "foot_L_v0",
+   "slot": "foot_L",
+   "kind": "view",
+   "view": "F",
+   "yaw": 0,
+   "zh": "foot_L：正面",
+   "mirror_of": null,
+   "file": "foot_L_v0.png",
+   "size": [
+    36,
+    36
+   ],
+   "pivot": [
+    18.17,
+    18.42
+   ]
+  },
+  {
+   "attachment": "foot_L_v1",
+   "slot": "foot_L",
+   "kind": "view",
+   "view": "FR",
+   "yaw": 45,
+   "zh": "foot_L：右前 3/4",
+   "mirror_of": null,
+   "file": "foot_L_v1.png",
+   "size": [
+    62,
+    37
+   ],
+   "pivot": [
+    31.17,
+    18.42
+   ]
+  },
+  {
+   "attachment": "foot_L_v2",
+   "slot": "foot_L",
+   "kind": "view",
+   "view": "R",
+   "yaw": 90,
+   "zh": "foot_L：右側",
+   "mirror_of": null,
+   "file": "foot_L_v2.png",
+   "size": [
+    82,
+    39
+   ],
+   "pivot": [
+    41.17,
+    19.42
+   ]
+  },
+  {
+   "attachment": "foot_L_v3",
+   "slot": "foot_L",
+   "kind": "view",
+   "view": "BR",
+   "yaw": 135,
+   "zh": "foot_L：右後 3/4",
+   "mirror_of": null,
+   "file": "foot_L_v3.png",
+   "size": [
+    62,
+    37
+   ],
+   "pivot": [
+    31.17,
+    18.42
+   ]
+  },
+  {
+   "attachment": "foot_L_v4",
+   "slot": "foot_L",
+   "kind": "view",
+   "view": "B",
+   "yaw": 180,
+   "zh": "foot_L：背面",
+   "mirror_of": null,
+   "file": "foot_L_v4.png",
+   "size": [
+    36,
+    36
+   ],
+   "pivot": [
+    18.17,
+    18.42
+   ]
+  },
+  {
+   "attachment": "foot_L_v5",
+   "slot": "foot_L",
+   "kind": "view",
+   "view": "BL",
+   "yaw": 225,
+   "zh": "foot_L：左後 3/4",
+   "mirror_of": null,
+   "file": "foot_L_v5.png",
+   "size": [
+    62,
+    37
+   ],
+   "pivot": [
+    31.17,
+    18.42
+   ]
+  },
+  {
+   "attachment": "foot_L_v6",
+   "slot": "foot_L",
+   "kind": "view",
+   "view": "L",
+   "yaw": 270,
+   "zh": "foot_L：左側",
+   "mirror_of": null,
+   "file": "foot_L_v6.png",
+   "size": [
+    82,
+    39
+   ],
+   "pivot": [
+    41.17,
+    19.42
+   ]
+  },
+  {
+   "attachment": "foot_L_v7",
+   "slot": "foot_L",
+   "kind": "view",
+   "view": "FL",
+   "yaw": 315,
+   "zh": "foot_L：左前 3/4",
+   "mirror_of": null,
+   "file": "foot_L_v7.png",
+   "size": [
+    62,
+    37
+   ],
+   "pivot": [
+    31.17,
+    18.42
+   ]
+  },
+  {
+   "attachment": "foot_R_v0",
+   "slot": "foot_R",
+   "kind": "view",
+   "view": "F",
+   "yaw": 0,
+   "zh": "foot_R：正面",
+   "mirror_of": null,
+   "file": "foot_R_v0.png",
+   "size": [
+    36,
+    36
+   ],
+   "pivot": [
+    17.83,
+    18.42
+   ]
+  },
+  {
+   "attachment": "foot_R_v1",
+   "slot": "foot_R",
+   "kind": "view",
+   "view": "FR",
+   "yaw": 45,
+   "zh": "foot_R：右前 3/4",
+   "mirror_of": null,
+   "file": "foot_R_v1.png",
+   "size": [
+    63,
+    37
+   ],
+   "pivot": [
+    31.83,
+    18.42
+   ]
+  },
+  {
+   "attachment": "foot_R_v2",
+   "slot": "foot_R",
+   "kind": "view",
+   "view": "R",
+   "yaw": 90,
+   "zh": "foot_R：右側",
+   "mirror_of": null,
+   "file": "foot_R_v2.png",
+   "size": [
+    82,
+    39
+   ],
+   "pivot": [
+    40.83,
+    19.42
+   ]
+  },
+  {
+   "attachment": "foot_R_v3",
+   "slot": "foot_R",
+   "kind": "view",
+   "view": "BR",
+   "yaw": 135,
+   "zh": "foot_R：右後 3/4",
+   "mirror_of": null,
+   "file": "foot_R_v3.png",
+   "size": [
+    62,
+    37
+   ],
+   "pivot": [
+    30.83,
+    18.42
+   ]
+  },
+  {
+   "attachment": "foot_R_v4",
+   "slot": "foot_R",
+   "kind": "view",
+   "view": "B",
+   "yaw": 180,
+   "zh": "foot_R：背面",
+   "mirror_of": null,
+   "file": "foot_R_v4.png",
+   "size": [
+    36,
+    36
+   ],
+   "pivot": [
+    17.83,
+    18.42
+   ]
+  },
+  {
+   "attachment": "foot_R_v5",
+   "slot": "foot_R",
+   "kind": "view",
+   "view": "BL",
+   "yaw": 225,
+   "zh": "foot_R：左後 3/4",
+   "mirror_of": null,
+   "file": "foot_R_v5.png",
+   "size": [
+    63,
+    37
+   ],
+   "pivot": [
+    31.83,
+    18.42
+   ]
+  },
+  {
+   "attachment": "foot_R_v6",
+   "slot": "foot_R",
+   "kind": "view",
+   "view": "L",
+   "yaw": 270,
+   "zh": "foot_R：左側",
+   "mirror_of": null,
+   "file": "foot_R_v6.png",
+   "size": [
+    82,
+    39
+   ],
+   "pivot": [
+    40.83,
+    19.42
+   ]
+  },
+  {
+   "attachment": "foot_R_v7",
+   "slot": "foot_R",
+   "kind": "view",
+   "view": "FL",
+   "yaw": 315,
+   "zh": "foot_R：左前 3/4",
+   "mirror_of": null,
+   "file": "foot_R_v7.png",
+   "size": [
+    62,
+    37
+   ],
+   "pivot": [
+    30.83,
+    18.42
+   ]
+  },
+  {
+   "attachment": "thigh_L",
+   "slot": "thigh_L",
+   "kind": "tube",
+   "zh": "管狀肢段：沿骨頭方向畫，兩端會被關節球蓋住",
+   "note": "one image for all angles; keep it roughly cylindrical",
+   "file": "thigh_L.png",
+   "size": [
+    77,
+    67
+   ],
+   "pivot": [
+    38.52,
+    10.21
+   ]
+  },
+  {
+   "attachment": "thigh_R",
+   "slot": "thigh_R",
+   "kind": "tube",
+   "zh": "管狀肢段：沿骨頭方向畫，兩端會被關節球蓋住",
+   "note": "one image for all angles; keep it roughly cylindrical",
+   "file": "thigh_R.png",
+   "size": [
+    77,
+    67
+   ],
+   "pivot": [
+    38.48,
+    10.21
+   ]
+  },
+  {
+   "attachment": "pelvis_v0",
+   "slot": "pelvis",
+   "kind": "view",
+   "view": "F",
+   "yaw": 0,
+   "zh": "pelvis：正面",
+   "mirror_of": null,
+   "file": "pelvis_v0.png",
+   "size": [
+    203,
+    127
+   ],
+   "pivot": [
+    102.0,
+    63.57
+   ]
+  },
+  {
+   "attachment": "pelvis_v1",
+   "slot": "pelvis",
+   "kind": "view",
+   "view": "FR",
+   "yaw": 45,
+   "zh": "pelvis：右前 3/4",
+   "mirror_of": null,
+   "file": "pelvis_v1.png",
+   "size": [
+    192,
+    125
+   ],
+   "pivot": [
+    96.0,
+    62.57
+   ]
+  },
+  {
+   "attachment": "pelvis_v2",
+   "slot": "pelvis",
+   "kind": "view",
+   "view": "R",
+   "yaw": 90,
+   "zh": "pelvis：右側",
+   "mirror_of": null,
+   "file": "pelvis_v2.png",
+   "size": [
+    178,
+    121
+   ],
+   "pivot": [
+    89.0,
+    60.57
+   ]
+  },
+  {
+   "attachment": "pelvis_v3",
+   "slot": "pelvis",
+   "kind": "view",
+   "view": "BR",
+   "yaw": 135,
+   "zh": "pelvis：右後 3/4",
+   "mirror_of": null,
+   "file": "pelvis_v3.png",
+   "size": [
+    192,
+    125
+   ],
+   "pivot": [
+    96.0,
+    62.57
+   ]
+  },
+  {
+   "attachment": "pelvis_v4",
+   "slot": "pelvis",
+   "kind": "view",
+   "view": "B",
+   "yaw": 180,
+   "zh": "pelvis：背面",
+   "mirror_of": null,
+   "file": "pelvis_v4.png",
+   "size": [
+    203,
+    127
+   ],
+   "pivot": [
+    102.0,
+    63.57
+   ]
+  },
+  {
+   "attachment": "pelvis_v5",
+   "slot": "pelvis",
+   "kind": "view",
+   "view": "BL",
+   "yaw": 225,
+   "zh": "pelvis：左後 3/4",
+   "mirror_of": "pelvis_v3",
+   "file": "pelvis_v5.png",
+   "size": [
+    192,
+    125
+   ],
+   "pivot": [
+    96.0,
+    62.57
+   ]
+  },
+  {
+   "attachment": "pelvis_v6",
+   "slot": "pelvis",
+   "kind": "view",
+   "view": "L",
+   "yaw": 270,
+   "zh": "pelvis：左側",
+   "mirror_of": "pelvis_v2",
+   "file": "pelvis_v6.png",
+   "size": [
+    178,
+    121
+   ],
+   "pivot": [
+    89.0,
+    60.57
+   ]
+  },
+  {
+   "attachment": "pelvis_v7",
+   "slot": "pelvis",
+   "kind": "view",
+   "view": "FL",
+   "yaw": 315,
+   "zh": "pelvis：左前 3/4",
+   "mirror_of": "pelvis_v1",
+   "file": "pelvis_v7.png",
+   "size": [
+    192,
+    125
+   ],
+   "pivot": [
+    96.0,
+    62.57
+   ]
+  },
+  {
+   "attachment": "waist",
+   "slot": "waist",
+   "kind": "ell",
+   "zh": "橢球零件：一張圖，會隨零件旋轉與壓扁",
+   "file": "waist.png",
+   "size": [
+    184,
+    115
+   ],
+   "pivot": [
+    92.0,
+    57.3
+   ]
+  },
+  {
+   "attachment": "hand_L",
+   "slot": "hand_L",
+   "kind": "ell",
+   "zh": "橢球零件：一張圖，會隨零件旋轉與壓扁",
+   "file": "hand_L.png",
+   "size": [
+    32,
+    54
+   ],
+   "pivot": [
+    16.45,
+    26.76
+   ]
+  },
+  {
+   "attachment": "hand_R",
+   "slot": "hand_R",
+   "kind": "ell",
+   "zh": "橢球零件：一張圖，會隨零件旋轉與壓扁",
+   "file": "hand_R.png",
+   "size": [
+    32,
+    54
+   ],
+   "pivot": [
+    15.55,
+    26.76
+   ]
+  },
+  {
+   "attachment": "knee_L",
+   "slot": "knee_L",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "knee_L.png",
+   "size": [
+    60,
+    60
+   ],
+   "pivot": [
+    30.36,
+    30.05
+   ]
+  },
+  {
+   "attachment": "knee_R",
+   "slot": "knee_R",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "knee_R.png",
+   "size": [
+    60,
+    60
+   ],
+   "pivot": [
+    29.64,
+    30.05
+   ]
+  },
+  {
+   "attachment": "forearm_L",
+   "slot": "forearm_L",
+   "kind": "tube",
+   "zh": "管狀肢段：沿骨頭方向畫，兩端會被關節球蓋住",
+   "note": "one image for all angles; keep it roughly cylindrical",
+   "file": "forearm_L.png",
+   "size": [
+    48,
+    57
+   ],
+   "pivot": [
+    21.11,
+    9.5
+   ]
+  },
+  {
+   "attachment": "forearm_R",
+   "slot": "forearm_R",
+   "kind": "tube",
+   "zh": "管狀肢段：沿骨頭方向畫，兩端會被關節球蓋住",
+   "note": "one image for all angles; keep it roughly cylindrical",
+   "file": "forearm_R.png",
+   "size": [
+    48,
+    57
+   ],
+   "pivot": [
+    26.89,
+    9.5
+   ]
+  },
+  {
+   "attachment": "wrist_L",
+   "slot": "wrist_L",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "wrist_L.png",
+   "size": [
+    31,
+    31
+   ],
+   "pivot": [
+    15.55,
+    15.47
+   ]
+  },
+  {
+   "attachment": "wrist_R",
+   "slot": "wrist_R",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "wrist_R.png",
+   "size": [
+    31,
+    31
+   ],
+   "pivot": [
+    15.45,
+    15.47
+   ]
+  },
+  {
+   "attachment": "upperarm_L",
+   "slot": "upperarm_L",
+   "kind": "tube",
+   "zh": "管狀肢段：沿骨頭方向畫，兩端會被關節球蓋住",
+   "note": "one image for all angles; keep it roughly cylindrical",
+   "file": "upperarm_L.png",
+   "size": [
+    59,
+    65
+   ],
+   "pivot": [
+    25.68,
+    11.49
+   ]
+  },
+  {
+   "attachment": "upperarm_R",
+   "slot": "upperarm_R",
+   "kind": "tube",
+   "zh": "管狀肢段：沿骨頭方向畫，兩端會被關節球蓋住",
+   "note": "one image for all angles; keep it roughly cylindrical",
+   "file": "upperarm_R.png",
+   "size": [
+    59,
+    65
+   ],
+   "pivot": [
+    33.32,
+    11.49
+   ]
+  },
+  {
+   "attachment": "chest_v0",
+   "slot": "chest",
+   "kind": "view",
+   "view": "F",
+   "yaw": 0,
+   "zh": "chest：正面",
+   "mirror_of": null,
+   "file": "chest_v0.png",
+   "size": [
+    202,
+    154
+   ],
+   "pivot": [
+    101.0,
+    76.98
+   ]
+  },
+  {
+   "attachment": "chest_v1",
+   "slot": "chest",
+   "kind": "view",
+   "view": "FR",
+   "yaw": 45,
+   "zh": "chest：右前 3/4",
+   "mirror_of": null,
+   "file": "chest_v1.png",
+   "size": [
+    190,
+    152
+   ],
+   "pivot": [
+    95.0,
+    75.98
+   ]
+  },
+  {
+   "attachment": "chest_v2",
+   "slot": "chest",
+   "kind": "view",
+   "view": "R",
+   "yaw": 90,
+   "zh": "chest：右側",
+   "mirror_of": null,
+   "file": "chest_v2.png",
+   "size": [
+    174,
+    150
+   ],
+   "pivot": [
+    87.0,
+    74.98
+   ]
+  },
+  {
+   "attachment": "chest_v3",
+   "slot": "chest",
+   "kind": "view",
+   "view": "BR",
+   "yaw": 135,
+   "zh": "chest：右後 3/4",
+   "mirror_of": null,
+   "file": "chest_v3.png",
+   "size": [
+    190,
+    152
+   ],
+   "pivot": [
+    95.0,
+    75.98
+   ]
+  },
+  {
+   "attachment": "chest_v4",
+   "slot": "chest",
+   "kind": "view",
+   "view": "B",
+   "yaw": 180,
+   "zh": "chest：背面",
+   "mirror_of": null,
+   "file": "chest_v4.png",
+   "size": [
+    202,
+    154
+   ],
+   "pivot": [
+    101.0,
+    76.98
+   ]
+  },
+  {
+   "attachment": "chest_v5",
+   "slot": "chest",
+   "kind": "view",
+   "view": "BL",
+   "yaw": 225,
+   "zh": "chest：左後 3/4",
+   "mirror_of": "chest_v3",
+   "file": "chest_v5.png",
+   "size": [
+    190,
+    152
+   ],
+   "pivot": [
+    95.0,
+    75.98
+   ]
+  },
+  {
+   "attachment": "chest_v6",
+   "slot": "chest",
+   "kind": "view",
+   "view": "L",
+   "yaw": 270,
+   "zh": "chest：左側",
+   "mirror_of": "chest_v2",
+   "file": "chest_v6.png",
+   "size": [
+    174,
+    150
+   ],
+   "pivot": [
+    87.0,
+    74.98
+   ]
+  },
+  {
+   "attachment": "chest_v7",
+   "slot": "chest",
+   "kind": "view",
+   "view": "FL",
+   "yaw": 315,
+   "zh": "chest：左前 3/4",
+   "mirror_of": "chest_v1",
+   "file": "chest_v7.png",
+   "size": [
+    190,
+    152
+   ],
+   "pivot": [
+    95.0,
+    75.98
+   ]
+  },
+  {
+   "attachment": "hip_L",
+   "slot": "hip_L",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "hip_L.png",
+   "size": [
+    81,
+    81
+   ],
+   "pivot": [
+    40.52,
+    40.21
+   ]
+  },
+  {
+   "attachment": "hip_R",
+   "slot": "hip_R",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "hip_R.png",
+   "size": [
+    81,
+    81
+   ],
+   "pivot": [
+    40.48,
+    40.21
+   ]
+  },
+  {
+   "attachment": "bag",
+   "slot": "bag",
+   "kind": "ell",
+   "zh": "橢球零件：一張圖，會隨零件旋轉與壓扁",
+   "file": "bag.png",
+   "size": [
+    53,
+    49
+   ],
+   "pivot": [
+    26.57,
+    24.71
+   ]
+  },
+  {
+   "attachment": "bag_strap",
+   "slot": "bag_strap",
+   "kind": "tube",
+   "zh": "管狀肢段：沿骨頭方向畫，兩端會被關節球蓋住",
+   "note": "one image for all angles; keep it roughly cylindrical",
+   "file": "bag_strap.png",
+   "size": [
+    49,
+    84
+   ],
+   "pivot": [
+    8.51,
+    5.97
+   ]
+  },
+  {
+   "attachment": "elbow_L",
+   "slot": "elbow_L",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "elbow_L.png",
+   "size": [
+    42,
+    41
+   ],
+   "pivot": [
+    21.11,
+    20.5
+   ]
+  },
+  {
+   "attachment": "elbow_R",
+   "slot": "elbow_R",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "elbow_R.png",
+   "size": [
+    42,
+    41
+   ],
+   "pivot": [
+    20.89,
+    20.5
+   ]
+  },
+  {
+   "attachment": "neck",
+   "slot": "neck",
+   "kind": "tube",
+   "zh": "管狀肢段：沿骨頭方向畫，兩端會被關節球蓋住",
+   "note": "one image for all angles; keep it roughly cylindrical",
+   "file": "neck.png",
+   "size": [
+    46,
+    41
+   ],
+   "pivot": [
+    23.0,
+    35.58
+   ]
+  },
+  {
+   "attachment": "shoulder_L",
+   "slot": "shoulder_L",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "shoulder_L.png",
+   "size": [
+    54,
+    54
+   ],
+   "pivot": [
+    26.68,
+    27.49
+   ]
+  },
+  {
+   "attachment": "shoulder_R",
+   "slot": "shoulder_R",
+   "kind": "ball",
+   "zh": "關節球：各角度都是圓",
+   "file": "shoulder_R.png",
+   "size": [
+    54,
+    54
+   ],
+   "pivot": [
+    27.32,
+    27.49
+   ]
+  },
+  {
+   "attachment": "head_v0",
+   "slot": "head",
+   "kind": "view",
+   "view": "F",
+   "yaw": 0,
+   "zh": "head：正面",
+   "mirror_of": null,
+   "file": "head_v0.png",
+   "size": [
+    173,
+    194
+   ],
+   "pivot": [
+    87.0,
+    96.94
+   ]
+  },
+  {
+   "attachment": "head_v1",
+   "slot": "head",
+   "kind": "view",
+   "view": "FR",
+   "yaw": 45,
+   "zh": "head：右前 3/4",
+   "mirror_of": null,
+   "file": "head_v1.png",
+   "size": [
+    180,
+    194
+   ],
+   "pivot": [
+    90.0,
+    96.94
+   ]
+  },
+  {
+   "attachment": "head_v2",
+   "slot": "head",
+   "kind": "view",
+   "view": "R",
+   "yaw": 90,
+   "zh": "head：右側",
+   "mirror_of": null,
+   "file": "head_v2.png",
+   "size": [
+    185,
+    194
+   ],
+   "pivot": [
+    93.0,
+    96.94
+   ]
+  },
+  {
+   "attachment": "head_v3",
+   "slot": "head",
+   "kind": "view",
+   "view": "BR",
+   "yaw": 135,
+   "zh": "head：右後 3/4",
+   "mirror_of": null,
+   "file": "head_v3.png",
+   "size": [
+    180,
+    194
+   ],
+   "pivot": [
+    90.0,
+    96.94
+   ]
+  },
+  {
+   "attachment": "head_v4",
+   "slot": "head",
+   "kind": "view",
+   "view": "B",
+   "yaw": 180,
+   "zh": "head：背面",
+   "mirror_of": null,
+   "file": "head_v4.png",
+   "size": [
+    173,
+    194
+   ],
+   "pivot": [
+    87.0,
+    96.94
+   ]
+  },
+  {
+   "attachment": "head_v5",
+   "slot": "head",
+   "kind": "view",
+   "view": "BL",
+   "yaw": 225,
+   "zh": "head：左後 3/4",
+   "mirror_of": "head_v3",
+   "file": "head_v5.png",
+   "size": [
+    180,
+    194
+   ],
+   "pivot": [
+    90.0,
+    96.94
+   ]
+  },
+  {
+   "attachment": "head_v6",
+   "slot": "head",
+   "kind": "view",
+   "view": "L",
+   "yaw": 270,
+   "zh": "head：左側",
+   "mirror_of": "head_v2",
+   "file": "head_v6.png",
+   "size": [
+    185,
+    194
+   ],
+   "pivot": [
+    93.0,
+    96.94
+   ]
+  },
+  {
+   "attachment": "head_v7",
+   "slot": "head",
+   "kind": "view",
+   "view": "FL",
+   "yaw": 315,
+   "zh": "head：左前 3/4",
+   "mirror_of": "head_v1",
+   "file": "head_v7.png",
+   "size": [
+    180,
+    194
+   ],
+   "pivot": [
+    90.0,
+    96.94
+   ]
+  },
+  {
+   "attachment": "ear_L",
+   "slot": "ear_L",
+   "kind": "ell",
+   "zh": "橢球零件：一張圖，會隨零件旋轉與壓扁",
+   "file": "ear_L.png",
+   "size": [
+    53,
+    62
+   ],
+   "pivot": [
+    26.48,
+    30.79
+   ]
+  },
+  {
+   "attachment": "ear_R",
+   "slot": "ear_R",
+   "kind": "ell",
+   "zh": "橢球零件：一張圖，會隨零件旋轉與壓扁",
+   "file": "ear_R.png",
+   "size": [
+    53,
+    62
+   ],
+   "pivot": [
+    26.52,
+    30.79
+   ]
+  },
+  {
+   "attachment": "snout",
+   "slot": "snout",
+   "kind": "ell",
+   "zh": "橢球零件：一張圖，會隨零件旋轉與壓扁",
+   "file": "snout.png",
+   "size": [
+    59,
+    47
+   ],
+   "pivot": [
+    30.0,
+    23.9
+   ]
+  }
+ ],
+ "name": "mascot",
+ "canvas": [
+  760,
+  840
+ ]
+}

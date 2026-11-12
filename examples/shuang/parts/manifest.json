@@ -1,0 +1,302 @@
+{
+ "canvas": [
+  1000,
+  1200
+ ],
+ "source": "art/character.svg",
+ "parts": [
+  {
+   "name": "hair_back",
+   "file": "hair_back.png",
+   "x": 303,
+   "y": 120,
+   "w": 394,
+   "h": 936
+  },
+  {
+   "name": "collar_back",
+   "file": "collar_back.png",
+   "x": 439,
+   "y": 478,
+   "w": 122,
+   "h": 81
+  },
+  {
+   "name": "neck",
+   "file": "neck.png",
+   "x": 397,
+   "y": 411,
+   "w": 206,
+   "h": 304
+  },
+  {
+   "name": "torso",
+   "file": "torso.png",
+   "x": 294,
+   "y": 505,
+   "w": 412,
+   "h": 695
+  },
+  {
+   "name": "arm_L",
+   "file": "arm_L.png",
+   "x": 259,
+   "y": 570,
+   "w": 111,
+   "h": 630
+  },
+  {
+   "name": "arm_R",
+   "file": "arm_R.png",
+   "x": 630,
+   "y": 570,
+   "w": 111,
+   "h": 630
+  },
+  {
+   "name": "collar_L",
+   "file": "collar_L.png",
+   "x": 401,
+   "y": 485,
+   "w": 83,
+   "h": 150
+  },
+  {
+   "name": "collar_R",
+   "file": "collar_R.png",
+   "x": 516,
+   "y": 485,
+   "w": 83,
+   "h": 150
+  },
+  {
+   "name": "hair_side_L",
+   "file": "hair_side_L.png",
+   "x": 297,
+   "y": 235,
+   "w": 84,
+   "h": 679
+  },
+  {
+   "name": "hair_side_R",
+   "file": "hair_side_R.png",
+   "x": 619,
+   "y": 235,
+   "w": 84,
+   "h": 679
+  },
+  {
+   "name": "hair_long_L",
+   "file": "hair_long_L.png",
+   "x": 328,
+   "y": 222,
+   "w": 69,
+   "h": 763
+  },
+  {
+   "name": "hair_long_R",
+   "file": "hair_long_R.png",
+   "x": 603,
+   "y": 222,
+   "w": 69,
+   "h": 763
+  },
+  {
+   "name": "eye_white_L",
+   "file": "eye_white_L.png",
+   "x": 406,
+   "y": 297,
+   "w": 80,
+   "h": 46
+  },
+  {
+   "name": "eye_white_R",
+   "file": "eye_white_R.png",
+   "x": 514,
+   "y": 297,
+   "w": 80,
+   "h": 46
+  },
+  {
+   "name": "iris_L",
+   "file": "iris_L.png",
+   "x": 431,
+   "y": 303,
+   "w": 34,
+   "h": 35
+  },
+  {
+   "name": "iris_R",
+   "file": "iris_R.png",
+   "x": 535,
+   "y": 303,
+   "w": 34,
+   "h": 35
+  },
+  {
+   "name": "face",
+   "file": "face.png",
+   "x": 386,
+   "y": 150,
+   "w": 228,
+   "h": 307
+  },
+  {
+   "name": "blush",
+   "file": "blush.png",
+   "x": 386,
+   "y": 342,
+   "w": 228,
+   "h": 48,
+   "hidden": true
+  },
+  {
+   "name": "lower_lid_L",
+   "file": "lower_lid_L.png",
+   "x": 410,
+   "y": 320,
+   "w": 75,
+   "h": 30
+  },
+  {
+   "name": "lower_lid_R",
+   "file": "lower_lid_R.png",
+   "x": 515,
+   "y": 320,
+   "w": 75,
+   "h": 30
+  },
+  {
+   "name": "eyelid_L",
+   "file": "eyelid_L.png",
+   "x": 405,
+   "y": 274,
+   "w": 80,
+   "h": 56
+  },
+  {
+   "name": "eyelid_R",
+   "file": "eyelid_R.png",
+   "x": 515,
+   "y": 274,
+   "w": 80,
+   "h": 56
+  },
+  {
+   "name": "nose",
+   "file": "nose.png",
+   "x": 490,
+   "y": 354,
+   "w": 23,
+   "h": 38
+  },
+  {
+   "name": "mouth_neutral",
+   "file": "mouth_neutral.png",
+   "x": 478,
+   "y": 403,
+   "w": 44,
+   "h": 23
+  },
+  {
+   "name": "mouth_smile",
+   "file": "mouth_smile.png",
+   "x": 478,
+   "y": 403,
+   "w": 44,
+   "h": 23,
+   "hidden": true
+  },
+  {
+   "name": "mouth_open_s",
+   "file": "mouth_open_s.png",
+   "x": 482,
+   "y": 402,
+   "w": 36,
+   "h": 27,
+   "hidden": true
+  },
+  {
+   "name": "mouth_open_m",
+   "file": "mouth_open_m.png",
+   "x": 480,
+   "y": 402,
+   "w": 40,
+   "h": 33,
+   "hidden": true
+  },
+  {
+   "name": "mouth_o",
+   "file": "mouth_o.png",
+   "x": 484,
+   "y": 402,
+   "w": 32,
+   "h": 32,
+   "hidden": true
+  },
+  {
+   "name": "hair_cheek_L",
+   "file": "hair_cheek_L.png",
+   "x": 364,
+   "y": 215,
+   "w": 42,
+   "h": 233
+  },
+  {
+   "name": "hair_cheek_R",
+   "file": "hair_cheek_R.png",
+   "x": 594,
+   "y": 215,
+   "w": 42,
+   "h": 233
+  },
+  {
+   "name": "hair_top",
+   "file": "hair_top.png",
+   "x": 351,
+   "y": 120,
+   "w": 298,
+   "h": 203
+  },
+  {
+   "name": "bang_L",
+   "file": "bang_L.png",
+   "x": 381,
+   "y": 178,
+   "w": 89,
+   "h": 128
+  },
+  {
+   "name": "bang_R",
+   "file": "bang_R.png",
+   "x": 530,
+   "y": 168,
+   "w": 89,
+   "h": 138
+  },
+  {
+   "name": "bang_C",
+   "file": "bang_C.png",
+   "x": 445,
+   "y": 166,
+   "w": 110,
+   "h": 139
+  },
+  {
+   "name": "brow_L",
+   "file": "brow_L.png",
+   "x": 420,
+   "y": 275,
+   "w": 56,
+   "h": 14
+  },
+  {
+   "name": "brow_R",
+   "file": "brow_R.png",
+   "x": 524,
+   "y": 275,
+   "w": 56,
+   "h": 14
+  }
+ ]
+}

@@ -1,0 +1,295 @@
+{
+ "canvas": [
+  800,
+  1000
+ ],
+ "source": "art/character.svg",
+ "parts": [
+  {
+   "name": "hair_back",
+   "file": "hair_back.png",
+   "x": 256,
+   "y": 156,
+   "w": 288,
+   "h": 498
+  },
+  {
+   "name": "arm_f",
+   "file": "arm_f.png",
+   "x": 437,
+   "y": 431,
+   "w": 43,
+   "h": 142
+  },
+  {
+   "name": "hand_f",
+   "file": "hand_f.png",
+   "x": 447,
+   "y": 551,
+   "w": 34,
+   "h": 34
+  },
+  {
+   "name": "leg_f",
+   "file": "leg_f.png",
+   "x": 405,
+   "y": 582,
+   "w": 36,
+   "h": 233
+  },
+  {
+   "name": "shoe_f_side",
+   "file": "shoe_f_side.png",
+   "x": 399,
+   "y": 796,
+   "w": 79,
+   "h": 46
+  },
+  {
+   "name": "shoe_f_front",
+   "file": "shoe_f_front.png",
+   "x": 398,
+   "y": 798,
+   "w": 50,
+   "h": 44,
+   "hidden": true
+  },
+  {
+   "name": "leg_n",
+   "file": "leg_n.png",
+   "x": 359,
+   "y": 582,
+   "w": 36,
+   "h": 233
+  },
+  {
+   "name": "shoe_n_side",
+   "file": "shoe_n_side.png",
+   "x": 353,
+   "y": 796,
+   "w": 79,
+   "h": 46
+  },
+  {
+   "name": "shoe_n_front",
+   "file": "shoe_n_front.png",
+   "x": 352,
+   "y": 798,
+   "w": 50,
+   "h": 44,
+   "hidden": true
+  },
+  {
+   "name": "neck",
+   "file": "neck.png",
+   "x": 380,
+   "y": 389,
+   "w": 40,
+   "h": 58
+  },
+  {
+   "name": "torso",
+   "file": "torso.png",
+   "x": 335,
+   "y": 422,
+   "w": 130,
+   "h": 139
+  },
+  {
+   "name": "skirt",
+   "file": "skirt.png",
+   "x": 301,
+   "y": 505,
+   "w": 198,
+   "h": 134
+  },
+  {
+   "name": "long_L",
+   "file": "long_L.png",
+   "x": 274,
+   "y": 250,
+   "w": 44,
+   "h": 315
+  },
+  {
+   "name": "long_R",
+   "file": "long_R.png",
+   "x": 482,
+   "y": 250,
+   "w": 44,
+   "h": 315
+  },
+  {
+   "name": "eye_white_L",
+   "file": "eye_white_L.png",
+   "x": 312,
+   "y": 294,
+   "w": 71,
+   "h": 65
+  },
+  {
+   "name": "eye_white_R",
+   "file": "eye_white_R.png",
+   "x": 417,
+   "y": 294,
+   "w": 71,
+   "h": 65
+  },
+  {
+   "name": "iris_L",
+   "file": "iris_L.png",
+   "x": 325,
+   "y": 306,
+   "w": 46,
+   "h": 46
+  },
+  {
+   "name": "iris_R",
+   "file": "iris_R.png",
+   "x": 429,
+   "y": 306,
+   "w": 46,
+   "h": 46
+  },
+  {
+   "name": "face",
+   "file": "face.png",
+   "x": 289,
+   "y": 180,
+   "w": 222,
+   "h": 236
+  },
+  {
+   "name": "blush",
+   "file": "blush.png",
+   "x": 288,
+   "y": 342,
+   "w": 224,
+   "h": 48,
+   "hidden": true
+  },
+  {
+   "name": "eyelid_L",
+   "file": "eyelid_L.png",
+   "x": 311,
+   "y": 276,
+   "w": 71,
+   "h": 61
+  },
+  {
+   "name": "eyelid_R",
+   "file": "eyelid_R.png",
+   "x": 418,
+   "y": 276,
+   "w": 71,
+   "h": 61
+  },
+  {
+   "name": "nose",
+   "file": "nose.png",
+   "x": 393,
+   "y": 354,
+   "w": 14,
+   "h": 15
+  },
+  {
+   "name": "mouth_neutral",
+   "file": "mouth_neutral.png",
+   "x": 388,
+   "y": 380,
+   "w": 24,
+   "h": 10
+  },
+  {
+   "name": "mouth_smile",
+   "file": "mouth_smile.png",
+   "x": 386,
+   "y": 378,
+   "w": 28,
+   "h": 19,
+   "hidden": true
+  },
+  {
+   "name": "mouth_o",
+   "file": "mouth_o.png",
+   "x": 392,
+   "y": 377,
+   "w": 16,
+   "h": 18,
+   "hidden": true
+  },
+  {
+   "name": "cheek_L",
+   "file": "cheek_L.png",
+   "x": 281,
+   "y": 215,
+   "w": 47,
+   "h": 209
+  },
+  {
+   "name": "cheek_R",
+   "file": "cheek_R.png",
+   "x": 472,
+   "y": 215,
+   "w": 47,
+   "h": 209
+  },
+  {
+   "name": "hair_top",
+   "file": "hair_top.png",
+   "x": 254,
+   "y": 154,
+   "w": 292,
+   "h": 157
+  },
+  {
+   "name": "bangs",
+   "file": "bangs.png",
+   "x": 287,
+   "y": 188,
+   "w": 226,
+   "h": 118
+  },
+  {
+   "name": "brow_L",
+   "file": "brow_L.png",
+   "x": 322,
+   "y": 281,
+   "w": 49,
+   "h": 13
+  },
+  {
+   "name": "brow_R",
+   "file": "brow_R.png",
+   "x": 428,
+   "y": 281,
+   "w": 50,
+   "h": 13
+  },
+  {
+   "name": "arm_n",
+   "file": "arm_n.png",
+   "x": 320,
+   "y": 431,
+   "w": 43,
+   "h": 142
+  },
+  {
+   "name": "hand_n",
+   "file": "hand_n.png",
+   "x": 319,
+   "y": 551,
+   "w": 34,
+   "h": 34
+  },
+  {
+   "name": "hand_n_open",
+   "file": "hand_n_open.png",
+   "x": 317,
+   "y": 550,
+   "w": 42,
+   "h": 50,
+   "hidden": true
+  }
+ ]
+}

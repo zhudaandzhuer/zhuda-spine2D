@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Spine 原生預覽</title>
+<style>
+  :root { --bg:#10161d; --panel:rgba(18,25,33,.82); --ink:#e8edf2; --mute:#93a1b0; --chip:#243242; --chip-on:#6fb3d9; --chip-on-ink:#08131b; --line:rgba(255,255,255,.08); }
+  @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg:#eef1f5; --panel:rgba(255,255,255,.86); --ink:#17212b; --mute:#5b6875; --chip:#dde4ec; --chip-on:#2f7fb0; --chip-on-ink:#ffffff; --line:rgba(0,0,0,.08); } }
+  :root[data-theme="light"] { --bg:#eef1f5; --panel:rgba(255,255,255,.86); --ink:#17212b; --mute:#5b6875; --chip:#dde4ec; --chip-on:#2f7fb0; --chip-on-ink:#ffffff; --line:rgba(0,0,0,.08); }
+  * { box-sizing:border-box; }
+  html, body { height:100%; margin:0; }
+  body { background:var(--bg); color:var(--ink); font:14px/1.4 system-ui,-apple-system,"PingFang TC","Noto Sans TC",sans-serif; overflow:hidden; }
+  #wrap { position:fixed; inset:0; display:flex; flex-direction:column; padding-top:env(safe-area-inset-top,0px); }
+  #stage { flex:1 1 auto; width:100%; min-height:0; display:block; touch-action:none; }
+  body[data-bg="transparent"] #stage { background:repeating-conic-gradient(#8a93a0 0% 25%, #b9c0ca 0% 50%) 50%/24px 24px; }
+  #hud { position:absolute; left:0; right:0; top:env(safe-area-inset-top,0px); display:flex; justify-content:space-between; gap:8px; padding:8px 12px; font-size:12px; color:#dfe7ee; text-shadow:0 1px 2px rgba(0,0,0,.6); pointer-events:none; }
+  #controls { flex:0 0 auto; background:var(--panel); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-top:1px solid var(--line); padding:8px 10px calc(8px + env(safe-area-inset-bottom,0px)); display:flex; flex-direction:column; gap:6px; max-height:42vh; overflow:auto; }
+  .row { display:flex; gap:6px; flex-wrap:wrap; }
+  .chip { border:0; border-radius:999px; padding:7px 13px; background:var(--chip); color:var(--ink); font:inherit; cursor:pointer; }
+  .chip.action { outline:1px solid var(--line); }
+  .chip.on { background:var(--chip-on); color:var(--chip-on-ink); }
+  .chip.toggle:not(.on) { opacity:.7; }
+  body.noui #controls, body.noui #hud { display:none; }
+  body.noui #stage { background:transparent; }
+  body.noui { background:transparent; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="stage"></canvas>
+  <div id="hud"><span id="title"></span><span id="status" role="status">載入中…</span></div>
+  <div id="controls"></div>
+</div>
+<script src="../node_modules/@esotericsoftware/spine-webgl/dist/iife/spine-webgl.js"></script>
+<script src="viewer.js"></script>
+</body>
+</html>
